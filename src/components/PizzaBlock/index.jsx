@@ -1,5 +1,5 @@
 import React from "react";
-import { pizzaTypes } from "../data/pizzaTypes";
+import { pizzaTypes } from "../../data/pizzaTypes";
 
 function PizzaBlock({
   title,

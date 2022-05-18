@@ -13,6 +13,7 @@ function Home() {
       .then((json) => {
         setPizzas(json);
         setLoading(false);
+        window.scrollTo(0, 0);
       });
   }, []);
   return (
